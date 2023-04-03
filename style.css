@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+*{
+    background-color:skyblue;
+    box-sizing: border-box;
+}
+
+p{
+    color: white;
+    font-size: 1.2em;
+}
+
+h1,h2 {
+    color: white;
+}
+
+.parent{
+    border: solid red 5px;
+}
+
+.grandparent{
+    border: solid red 5px;
+    border-right: 5px greenyellow solid;
+    border-left: 5px burlywood solid;
+}
+.skills{
+    color: yellowgreen;
+    font-size: 30px;
+}
+
+li {
+    color: black;
+    border: solid white 1px;
+}
+
+#hobby{
+    background-color: whitesmoke;
+}
+
+ul{
+    width: 300px;
+}
